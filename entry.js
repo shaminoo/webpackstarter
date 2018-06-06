@@ -1,1 +1,1 @@
-document.write('new entry.js');
+document.write('another entry.js');
