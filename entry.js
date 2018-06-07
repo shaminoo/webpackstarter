@@ -1,1 +1,2 @@
-document.write('test entry.js');
+var message = require('./includeme');
+document.write(message);
