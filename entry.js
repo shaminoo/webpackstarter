@@ -1,2 +1,2 @@
-var message = require('./includeme');
-document.write(message);
+//require('./includefiles/includeme');
+require.context('./includefiles', true, /\.js$/).keys().forEach(require.context('./includefiles', true));
